@@ -1,0 +1,10 @@
+.cart__message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    width: 744px;
+    height: 104px;
+}

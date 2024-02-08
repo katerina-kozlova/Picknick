@@ -1,0 +1,7 @@
+.footer {
+    width: calc(100vw - 96px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 25px;
+}

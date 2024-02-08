@@ -1,0 +1,5 @@
+.news__group {
+    margin: 48px;
+    display: flex;
+    flex-direction: column;
+}

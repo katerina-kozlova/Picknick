@@ -1,0 +1,35 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__button/header__button.css);
+
+@import url(../blocks/cart/cart.css);
+@import url(../blocks/cart/__communication/cart__communication.css);
+@import url(../blocks/cart/__navigation/cart__navigation.css);
+@import url(../blocks/cart/__title/cart__title.css);
+@import url(../blocks/cart/__text/cart__text.css);
+@import url(../blocks/cart/__message/cart__message.css);
+@import url(../blocks/cart/__triangle/cart__triangle.css);
+@import url(../blocks/cart/__ic/cart__ic.css);
+@import url(../blocks/cart/__button/cart__button.css);
+
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__text/news__text.css);
+@import url(../blocks/news/__data/news__data.css);
+@import url(../blocks/news/__group/news__group.css);
+@import url(../blocks/news/__image/news__image.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__reference/footer__reference.css);
+@import url(../blocks/footer/__reference-link/footer__reference-link.css);

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="pages/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ПИКНИК</title>
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <img src="images/logo_header.svg" alt="логотип" class="header__logo" />
+                <button aria-label="вход в личный кабинет" type="button" class="button header__button"></button>
+            </header>
+
+            <main class="main">
+                <section class="cart">
+                    <div class="cart__communication">
+                        <h1 clsss="cart__title">Выберете домик</h1>
+                        <div class="cart__message">
+                            <img src="images/triangle.svg" alt="треугольник" class="cart__triangle" />
+                            <img src="images/ic.svg" alt="i" class="cart__ic" />
+                            <p class="cart__text">Выберите домик и ознакомьтесь с условиями бронирования. После вам придёт смс с подтверждением.</p>
+                        </div>
+                    </div>
+                    <div class="cart__navigation">
+                        <button aria-label="показать информацию о домике" type="button" class="button cart__button cart__button_number_1"></button>
+                        <button aria-label="показать информацию о домике" type="button" class="button cart__button cart__button_number_2"></button>
+                        <button aria-label="показать информацию о домике" type="button" class="button cart__button cart__button_number_3"></button>
+                        <button aria-label="показать информацию о домике" type="button" class="button cart__button cart__button_number_4"></button>
+                    </div>
+
+                </section>
+                <section class ="news">
+
+                </section>
+            </main>
+
+            <template class="new-template">
+                <div class="news__element">
+                    <img class="news__image" alt="" src="#" />
+                    <div class="news__group">
+                        <h2 class="news__title"></h2>
+                        <p class="news__text"></p>
+                        <p class="news__data"></p>
+                    </div>
+                </div>
+            </template>
+
+            <footer class="footer">
+                <nav class="footer__reference">
+                    <a href="#" class="link footer__reference-link">политика конфиденциальности</a>
+                    <a href="#" class="link footer__reference-link">публичная оферта</a>
+                </nav>
+                <nav class="footer__social">
+                    <a href="#" class="link footer__social-link" target="_blank"><img class="footer__social-image" src="images/fb.svg" alt="Facebook icon"></a>
+                    <a href="#" class="link footer__social-link" target="_blank"><img class="footer__social-image" src="images/inst.svg" alt="Instagram icon"></a>
+                    <a href="#" class="link footer__social-link" target="_blank"><img class="footer__social-image" src="images/vk.svg" alt="VK icon"></a>
+                </nav>
+            </footer>
+        </div>
+        <script type="module" src="./pages/index.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+.cart__title {
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 72px;
+    color: rgba(27, 46, 63, 1);
+    padding: 0;
+    margin: 20px auto 24px 0;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.page {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: rgba(246, 248, 252, 1);
+    overflow: hidden;
+    font-family: 'Montserrat', 'Areal', sans-serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }

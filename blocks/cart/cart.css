@@ -1,0 +1,6 @@
+.cart {
+    width: calc(100vw - 94px);
+    display: flex;
+    flex-direction: column;
+    margin: 48px auto;
+}

@@ -1,0 +1,9 @@
+.cart__triangle {
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    top: -24px;
+    left: 48px;
+}

@@ -1,0 +1,9 @@
+.news {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    width: calc(100vw - 96px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 25px;
+}
