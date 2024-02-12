@@ -19,7 +19,9 @@ export function getAllNews() {
     })
   }
 
-export function postNews(urlToImage, title, description, publishedAt) {
+  
+
+export function postNews(url, title, description, published) {
     return handleRequest(BASE_URL, {
       method: 'POST',
       headers: {
@@ -27,10 +29,10 @@ export function postNews(urlToImage, title, description, publishedAt) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        image: urlToImage,
+        image: url,
         title: title,
         description: description,
-        data: publishedAt
+        data: published
       })
     })
   }

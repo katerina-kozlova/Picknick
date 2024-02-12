@@ -1,5 +1,8 @@
 .cart__navigation {
     background-image: url(../../../images/park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 1826px;
     height: 625px;
     border-radius: 24px;

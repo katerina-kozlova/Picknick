@@ -10,7 +10,7 @@ export function createNews(link, title, description, data) {
     const textNews = news.querySelector('.news__text');
     const dataNews = news.querySelector('.news__data');
 
-    imageNews.src = image; 
+    imageNews.src = link; 
     titleNews.textContent = title; 
     textNews.textContent = description; 
     dataNews.textContent = data;
